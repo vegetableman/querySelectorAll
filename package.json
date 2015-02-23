@@ -1,17 +1,25 @@
 {
-  "name": "querySelectorAll",
+  "name": "querySelectorall",
   "version": "0.1.0",
   "description": "A simple wrapper for querySelectorAll. Takes query string or dom node and returns an array of elements or element respectively.",
   "main": "index.js",
   "scripts": {
     "test": "browserify test.js | testling"
   },
-  "author": "",
+  "author": "vegetableman",
   "license": "ISC",
+  "homepage": "https://github.com/vegetableman/querySelectorAll",
+  "bugs":{
+    "url" : "https://github.com/vegetableman/querySelectorAll/issues"
+  },
   "keywords": [
     "querySelectorAll",
     "Array"
   ],
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/vegetableman/querySelectorAll.git"
+  },
   "dependencies": {
     "is-dom": "^1.0.5"
   },
