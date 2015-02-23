@@ -1,5 +1,5 @@
 {
-  "name": "querySelectorall",
+  "name": "queryselectorall",
   "version": "0.1.0",
   "description": "A simple wrapper for querySelectorAll. Takes query string or dom node and returns an array of elements or element respectively.",
   "main": "index.js",
