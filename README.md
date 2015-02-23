@@ -12,7 +12,7 @@ Beats having to deal with testing whether the passed value is a string or a dom 
       console.log(el);
   });
 
-  $("body").forEach(function(el){
+  $('body').forEach(function(el){
       console.log(el);
   });
 
