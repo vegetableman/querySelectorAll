@@ -1,0 +1,33 @@
+{
+  "name": "querySelectorAll",
+  "version": "0.0.0",
+  "description": "A simple wrapper for querySelectorAll. Returns dom as array if selector passed is a dom node",
+  "main": "index.js",
+  "scripts": {
+    "test": "browserify test.js | testling"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [
+    "querySelectorAll",
+    "Array"
+  ],
+  "dependencies": {
+    "is-dom": "^1.0.5"
+  },
+  "testling": {
+    "browsers": [
+      "ie/8..latest",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/5..latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6",
+      "android-browser/latest"
+    ]
+  },
+  "devDependencies": {
+    "tape": "^3.5.0"
+  }
+}
