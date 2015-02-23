@@ -1,7 +1,7 @@
 {
   "name": "querySelectorAll",
-  "version": "0.0.0",
-  "description": "A simple wrapper for querySelectorAll. Takes query string or dom node and return an array.",
+  "version": "0.1.0",
+  "description": "A simple wrapper for querySelectorAll. Takes query string or dom node and returns an array.",
   "main": "index.js",
   "scripts": {
     "test": "browserify test.js | testling"
