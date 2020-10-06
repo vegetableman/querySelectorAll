@@ -1,9 +1,9 @@
-#querySelectorAll
+# querySelectorAll
 
 Takes query string or dom node and returns an array of elements or element respectively.
 Beats having to deal with testing whether the passed value is a string or a dom node.
 
-##Example
+## Example
 
 ```js
   var $ = require('querySelectorAll');
@@ -18,7 +18,7 @@ Beats having to deal with testing whether the passed value is a string or a dom 
 
 ```
 
-##API
+## API
 
 ### $(:domQueryString) <- [:NodeList]
 Takes a DOM query string and return a native array type made up of HTMLElements
@@ -26,7 +26,7 @@ Takes a DOM query string and return a native array type made up of HTMLElements
 ### $(:domNode) <- [:Node]
 Takes a DOM and returns the dom node in an array
 
-##License
+## License
 Copyright (c) 2015, Vignesh Anand
 Permission to use, copy, modify, and/or distribute this software for any purpose
 with or without fee is hereby granted, provided that the above copyright notice
